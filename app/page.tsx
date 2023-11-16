@@ -11,13 +11,12 @@ export const metadata: Metadata = {
   description: 'Portfolio of Jan Niklas Diederich',
 }
 
-
 export default function Home() {
   return (
     <main className="bg-background text-text scroll-container">
       <HomePageSection>
         <div>
-          <ScalingText text="Hey My Name Is Jan And I'm.."></ScalingText>
+          <ScalingText text="Hey My Name Is Jan And I'm.." />
           <ol className="">
             <BigListItem element={<p>A <span className="text-primary">Professional</span> <span className="text-accent">Android</span> Developer</p>} />
             <BigListItem element={<p>Sometimes Building <span className="text-primary">Full-Stack</span> <span className="text-accent">Web</span> Apps</p>} />
